@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import  Voyage from "../assets/voyagepic.jpg"
 import Ecommerce from "../assets/ecommerce.PNG"
-import Portfolio from "../assets/my-Personal.PNG"
+import Portfolio from "../assets/my-personal.png";
 const ProjectPage = () => {
   useEffect(() => {
     AOS.init({
