@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { ExternalLink, ExternalLinkIcon, Github, GithubIcon } from "lucide-react"; 
 import AOS from "aos";
 import "aos/dist/aos.css";
-import  Voyage from "../assets/Voyagepic.jpg"
+import  Voyage from "../assets/voyagepic.jpg"
 import Ecommerce from "../assets/ecommerce.PNG"
 import Portfolio from "../assets/my-Personal.PNG"
 const ProjectPage = () => {
@@ -22,18 +22,18 @@ const ProjectPage = () => {
         "A modern travel and booking platform with a clean UI for exploring destinations, booking tours, and managing trips seamlessly.",
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       image: Voyage,
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://travelsandtourvoyage.com/",
+      githubUrl: "https://github.com/Marvkidflows/Voyagertourwebsite.git",
     },
     {
       id: 2,
-      title: "Personal Portfolio Website",
+      title: "Codexa Portfolio Website",
       description:
         "A portfolio website showcasing my projects, skills, and experience. Built with React and Tailwind CSS for a modern look.",
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       image: Portfolio,
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://myportifolio-oja9g4ekm-marvkidflows-projects.vercel.app",
+      githubUrl: "https://github.com/Marvkidflows/myportifolio.git",
     },
     {
       id: 3,
@@ -42,8 +42,8 @@ const ProjectPage = () => {
         "A responsive restaurant website featuring an interactive menu, online reservations, and smooth navigation.",
       technologies: ["React", "Tailwind CSS", "JavaScript"],
       image: Ecommerce,
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://ecommercereact-qza7.vercel.app",
+      githubUrl: "https://github.com/Marvkidflows/ecommerce-website.git",
     },
   ];
 
